@@ -1,0 +1,28 @@
+div.XO {
+    margin: auto;
+    margin-top: 20px;
+    height: max-content;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.XO_Child {
+    margin: 2px;
+    width: calc(200px / 3);
+    height: calc(200px / 3);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_flex {
+    height: 90%;
+ }
+
+div.BT {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
